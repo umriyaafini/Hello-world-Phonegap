@@ -1,0 +1,59 @@
+@font-face{
+	font-family: Blackjack;
+	scr:url('font/black_jack.ttf');
+}
+@font-face{
+	font-family: Agoestoesan;
+	scr:url('font/agoestoesan.ttf');
+}
+
+@font-face{
+	font-family: nexalight;
+	scr:url('font/NexaLight.otf');
+}
+
+.center{
+	text-align: center;
+}
+.tipe1{
+	
+	padding: 5rem;
+	background-color: #4f6767;
+	font-family: Blackjack;
+	color: #f4d8bd;
+}
+.tipe2{
+	background-color: #f4d8bd;
+	font-family: Agoestoesan;
+	
+	padding: 5rem;
+}
+.tipe3{
+	background-color: #f07f67;
+	font-family: nexalight;
+	font-size: 20px;
+	color: #000;
+	padding: 5rem;
+}
+.tipe4{
+	background-color: #4d4d4d;
+	font-family: nexalight;
+	color: #f6c8a2;
+	padding: 5rem;
+	font-size: 20px;
+}
+.tipe5{
+	background-color: #f6c8a2;
+	font-family: nexalight;
+	font-size: 15px;
+	padding: 5rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.tipe6{
+	background-color: #b7c8b7;
+	font-family: nexalight;
+	font-size: 15px;
+	padding: 5rem;
+}

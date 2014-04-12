@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello world im ready</title>
+	<script src="js/cordova-2.7.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div class="tipe1 center">
+				<h1>Hello WOrld!!</h1>
+			</div>
+			<div class="tipe2">
+				<p>my name</p>
+				<h3>-Umriya Afini-</h3>
+			</div >
+			<div class="tipe3">
+				<button id="nim" type="button" class="btn btn-primary btn-lg center">NIM</button>
+				<br/>
+				<p id="tampil1" class="text-right"></p>
+			</div>
+			<div class="tipe4">
+				<button id="klp" type="button" class="btn btn-primary btn-lg center">Kelompok</button><br/>
+				<p id="tampil2" class="text-right"></p>
+			</div>
+			<div class="tipe5 center">
+				"fake it till you make it"
+			</div>
+			<div class="tipe6 center">
+				<p>you mean like ....</p>
+				<br/>
+				<img src="images/awesome.png">
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	<script type="text/javascript">
+	document.getElementById("nim").onclick=function(){tampilnim()};
+	document.getElementById("klp").onclick=function(){tampilklp()};
+	function tampilnim()
+	{
+		document.getElementById("tampil1").innerHTML="A11.2012.07305";
+	}
+	function tampilklp()
+	{
+		document.getElementById("tampil2").innerHTML="A11.4608";
+	}
+	</script>
+</body>
+</html>
